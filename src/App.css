@@ -9,7 +9,6 @@
 
 .search-bar {
   grid-area: search-bar;
-  background-color: red;
 }
 
 .video-player {

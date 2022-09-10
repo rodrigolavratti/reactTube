@@ -5,6 +5,13 @@ import {buscaVideo} from '../store/actions/BuscaVideo'
 
 class SearchBar extends Component {
 
+    constructor(props) {
+        super(props)
+
+        //onLoad
+        this.props.buscaVideo('Reactjs')
+    }
+
     pesquisaTermo = e => {
         if(e.keyCode === 13) {
             const termo = e.target.value
